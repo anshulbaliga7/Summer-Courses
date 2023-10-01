@@ -1,0 +1,251 @@
+Folks,
+
+Hope your quiz went well.
+
+Though the other classes will initiate their project tomorrow, here are the 5 projects that you have to choose from. Please note that it cannot be outside of these projects. It does not matter what the other classes are doing, this is what we will do.
+
+You can form teams of 3 (max 4 at your own peril - the expectation is higher for 4 ) and must be from my class. 
+
+Plagiarism is severely dealt with . All nooks and corners are searched such as stackoverflow, github,chatGPT, coPilot etc very thoroughly before a grade is declared. My homegrown plagiarism tool also checks for standard obfuscation mechanisms like variable name change, for loop - > while loop etc.
+
+It is ok to take help from sites and LLMS , infact encouraged , but don't blindly copy . Bulk of your marks come from the project, so if you have freeloader , then the onus of carrying the weight is on you.
+
+Nidhi,Thank you for reminding me.
+
+p.s  Parameters for grading are as follows
+
+1. Feature completion
+2.  Efficiency
+3.  Code optimization
+4.  Usability
+5. Innovation
+
+
+Good luck
+Srini
+
+1. Project Title: File Compression Utility
+
+Project Description:
+You have been tasked with developing a file compression utility using C++ version 11. The program should allow the user to compress and decompress files using a simple compression algorithm. The compression algorithm should aim to reduce the file size while maintaining the ability to restore the original file.
+
+Project Requirements:
+1. User Interface:
+   - The program should display a menu with the following options:
+     a) Compress a file
+     b) Decompress a file
+     c) Exit the program
+   - The program should repeatedly prompt the user for a menu choice until the user chooses to exit.
+
+2. File Compression Algorithm:
+   - The compression algorithm should be based on a simple method such as Run-Length Encoding (RLE) or Huffman coding.
+   - If you choose RLE, it should replace sequences of repeated characters with a count and the corresponding character.
+   - If you choose Huffman coding, it should generate a variable-length binary code for each character based on their frequency of occurrence in the file.
+   - Ensure that the compressed file can be decompressed to restore the original file.
+
+3. Compress a File:
+   - When the user selects the option to compress a file, the program should prompt the user to enter the path to the file to be compressed.
+   - The program should apply the chosen compression algorithm to the file, creating a compressed version of the file.
+   - The program should provide appropriate feedback to the user after the compression process.
+
+4. Decompress a File:
+   - When the user selects the option to decompress a file, the program should prompt the user to enter the path to the file to be decompressed.
+   - The program should apply the reverse process of the chosen compression algorithm to the file, restoring the original file.
+   - The program should provide appropriate feedback to the user after the decompression process.
+
+5. Error Handling:
+   - The program should handle errors gracefully, such as invalid file paths, file format mismatches during decompression, or any other potential issues.
+   - Provide meaningful error messages to guide the user in case of errors.
+
+6. Performance Considerations:
+   - While the main focus is on functionality, you can explore ways to optimize the compression algorithm or improve the overall performance of the program.
+   - Consider testing the program with large files and measuring the compression ratio and execution time to assess its efficiency.
+
+7. Documentation:
+   - Include comments in the code to explain the purpose and functionality of major sections of your program.
+   - Provide a brief overview of the program's functionality in a README file, including instructions on how to compile and run the program.
+
+Note: You are not required to implement advanced compression algorithms like Lempel-Ziv-Welch (LZW) or DEFLATE. Focus on creating a functional program that provides basic file compression and decompression capabilities.
+
+
+
+2  Project Title: PES Text Editor
+
+Project Description:
+You have been assigned the task of developing a simple text editor using C++ version 11. The program should allow users to create, open, edit, and save text files. The text editor should provide basic functionalities such as inserting text, deleting text, searching for text, and replacing text within the files.
+
+Project Requirements:
+1. User Interface:
+   - The program should display a menu with the following options:
+     a) Create a new file
+     b) Open an existing file
+     c) Save the current file
+     d) Edit the current file
+     e) Search for text within the current file
+     f) Replace text within the current file
+     g) Exit the program
+   - The program should repeatedly prompt the user for a menu choice until the user chooses to exit.
+
+2. File Operations:
+   - Create a New File:
+     - When the user selects the option to create a new file, the program should prompt the user to enter a file name.
+     - The program should create a new text file with the given name.
+
+   - Open an Existing File:
+     - When the user selects the option to open an existing file, the program should prompt the user to enter the path to the file to be opened.
+     - The program should load the contents of the file into the editor for editing.
+
+   - Save the Current File:
+     - When the user selects the option to save the current file, the program should prompt the user to enter a file name if it is a new file or automatically save the changes to the existing file.
+     - The program should save the contents of the editor to the specified file.
+
+3. Edit Operations:
+   - When the user selects the option to edit the current file, the program should provide the following functionalities:
+     a) Insert Text:
+        - Allow the user to insert text at the current cursor position.
+     b) Delete Text:
+        - Allow the user to delete text from the current cursor position.
+     c) Move Cursor:
+        - Allow the user to move the cursor within the file.
+     d) Display the Current File:
+        - Display the contents of the current file, including line numbers.
+
+4. Search and Replace Operations:
+   - When the user selects the option to search for text within the current file, the program should prompt the user to enter the search query.
+   - The program should search for the query within the current file and display the line numbers and occurrences of the query.
+   - When the user selects the option to replace text within the current file, the program should prompt the user to enter the search query and the replacement text.
+   - The program should replace all occurrences of the search query with the replacement text in the current file.
+
+5. Error Handling:
+   - The program should handle errors gracefully, such as invalid file paths, file I/O errors, or any other potential issues.
+   - Provide meaningful error messages to guide the user in case of errors.
+
+6. Additional Features (optional):
+   - If you want to make the project more challenging, you can consider adding additional features such as undo/redo functionality, copy/paste functionality, or syntax highlighting for specific file types.
+
+7. Documentation:
+   - Include comments in the code to explain the purpose and functionality of major sections of your program.
+   - Provide a brief overview of the program's functionality in a README file, including instructions on how to compile and run the program.
+3. Project Title: Process Management Simulator
+
+Project Description:
+You have been assigned the task of developing a process management simulator using C++ version 11. The program should simulate the behavior of a simple operating system by implementing basic process scheduling algorithms and managing system resources. The simulator should provide functionalities to create, manage, and terminate processes, as well as allocate and deallocate system resources.
+
+Project Requirements:
+1. Process Management:
+   - The program should simulate the creation, management, and termination of processes within the simulated operating system.
+   - Each process should have a unique process ID, priority, and state (e.g., running, waiting, terminated).
+   - Implement process creation and termination functions.
+
+2. CPU Scheduling:
+   - Implement basic CPU scheduling algorithms to determine the order in which processes are executed.
+   - Include at least two scheduling algorithms such as First-Come, First-Served (FCFS), Round Robin, or Shortest Job Next (SJN).
+   - The program should simulate the execution of processes based on the chosen scheduling algorithm.
+
+3. Resource Management:
+   - Implement resource allocation and deallocation functionalities.
+   - Each resource should have a unique identifier and be associated with a process.
+   - Simulate resource requests and releases by processes.
+   - Implement a resource allocation algorithm such as Banker's algorithm or a simple resource queue.
+
+4. Process State Transitions:
+   - Implement functions to simulate process state transitions, such as moving processes from running to waiting or terminating states based on their execution or resource requirements.
+
+5. User Interface:
+   - The program should display a menu with the following options:
+     a) Create a new process
+     b) Terminate an existing process
+     c) Request a resource
+     d) Release a resource
+     e) Display process information
+     f) Simulate process execution
+     g) Exit the program
+   - The program should repeatedly prompt the user for a menu choice until the user chooses to exit.
+
+6. Error Handling:
+   - The program should handle errors gracefully, such as invalid inputs or resource allocation violations.
+   - Provide meaningful error messages to guide the user in case of errors.
+
+7. Documentation:
+   - Include comments in the code to explain the purpose and functionality of major sections of your program.
+   - Provide a brief overview of the program's functionality in a README file, including instructions on how to compile and run the program.
+
+ students are encouraged to think about how processes are scheduled and how resources are allocated and managed in an operating system. The focus should be on simulating these behaviors rather than implementing a full-fledged operating system. 
+
+
+Project 4: Memory Allocator
+
+Project Description:
+You have been assigned the task of developing a memory allocator using C++ version 11. The program should simulate memory allocation and deallocation similar to how an operating system manages memory for processes. The memory allocator should provide functionalities to allocate and deallocate blocks of memory and handle memory fragmentation.
+
+Project Requirements:
+
+Memory Allocator Structure:
+
+Implement a memory allocator that manages a fixed-size block of memory.
+The memory allocator should be able to allocate smaller blocks of memory from the larger block and deallocate them when they are no longer needed.
+Consider using a suitable data structure, such as a linked list, to manage the available memory blocks and track their allocation status.
+Memory Allocation:
+
+Implement a function to allocate memory blocks of a specified size.
+Allocate memory from the available blocks, taking into account memory fragmentation.
+Memory Deallocation:
+
+Implement a function to deallocate memory blocks and mark them as available for reuse.
+Error Handling:
+
+The program should handle errors gracefully, such as invalid memory allocation or deallocation requests.
+Provide meaningful error messages to guide the user in case of errors.
+User Interface:
+
+The program should display a menu with the following options:
+a) Allocate memory
+b) Deallocate memory
+c) Display memory allocation status
+d) Exit the program
+The program should repeatedly prompt the user for a menu choice until the user chooses to exit.
+Documentation:
+
+Include comments in the code to explain the purpose and functionality of major sections of your program.
+Provide a brief overview of the program's functionality in a README file, including instructions on how to compile and run the program.
+
+
+5 Project: File System Simulator
+
+Project Description:
+You have been tasked with developing a file system simulator using C++ version 11. The program should simulate the basic functionalities of a file system, including file creation, deletion, reading, and writing operations. The simulator should allow users to interact with a virtual file system and perform file operations similar to those in a real file system.
+
+Project Requirements:
+1. File System Structure:
+   - Design and implement a file system structure that supports file and directory management.
+   - Each file should have a name, size, and content.
+   - Each directory should have a name and contain files and subdirectories.
+
+2. User Interface:
+   - The program should display a menu with the following options:
+     a) Create a file
+     b) Create a directory
+     c) Delete a file or directory
+     d) List files and directories
+     e) Read a file
+     f) Write to a file
+     g) Exit the program
+   - The program should repeatedly prompt the user for a menu choice until the user chooses to exit.
+
+3. File and Directory Operations:
+   - Implement functions to create files and directories within the virtual file system.
+   - Implement functions to delete files and directories from the virtual file system.
+   - Implement a function to list the files and directories within a directory.
+   - Implement functions to read the content of a file and write to a file.
+
+4. Error Handling:
+   - The program should handle errors gracefully, such as invalid file or directory names, attempting to read or write to a non-existent file, or any other potential issues.
+   - Provide meaningful error messages to guide the user in case of errors.
+
+5. User Navigation:
+   - Allow users to navigate through directories and perform file operations within the appropriate directory context.
+   - Implement functions to move between directories and display the current directory path.
+
+6. Documentation:
+   - Include comments in the code to explain the purpose and functionality of major sections of your program.
+   - Provide a brief overview of the program's functionality in a README file, including instructions on how to compile and run the program.

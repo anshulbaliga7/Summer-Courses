@@ -1,0 +1,2 @@
+structure(list(Name = c("Anshul", "Anshu", "Ansh"), Age = c(35, 
+23, 12)), class = "data.frame", row.names = c(NA, -3L))
